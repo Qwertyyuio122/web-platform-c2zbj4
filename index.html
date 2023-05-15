@@ -21,14 +21,37 @@
         padding: 15px;
         margin: 15px;
       }
+      p{
+        background: red;
+      }
+      .paragraph_2 {
+        background: blue;
+      }
+      #paragraph_3 {
+        background: green;
+      }
+      p:nth-child(2) strong{
+        background: purple;
+      }
+      a {
+        background: white; 
+      }
+      #in-line_tags {
+        background: purple;
+      }
     </style>
   </head>
   <body>
     <div class="parent">
       <nav>Hello</nav>
       <div class="child">
-        World
-        <div class="box">box</div>
+        <p>This has been selected by CSS using the p name tag</p>
+        <p id="in-line_tags">
+          This is a paragraph that contains inline tags like:
+          <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"> this is a rick-roll(in-line element)</a> and another link to <a href="https://apple.com">Apple</a>
+        </p>
+        <p class="paragraph_2">This has been selected using a <strong>class</strong> selector... Actually, I was overriden by the <strong>nth-child</strong> selector</p>
+        <p id="paragraph_3">This paragraph has been selected using an <strong> ID</strong> selector</p>        <div class="box">box</div>
       </div>
     </div>
   </body>
