@@ -1,49 +1,15 @@
 <html> 
   <head>
-    <style>
-      nav {
-        background: orange;
-      }
-      div.parent {
-        display: grid;
-        grid-template-columns: 20% 80%;
-        min-height: 100vh;
-        grid-gap: 20px;
-      }
-      div.child {
-        background: skyblue;
-      }
-      div.box {
-        width: 100px;
-        height: 100px;
-        background: yellow;
-        border: 5px solid black;
-        padding: 15px;
-        margin: 15px;
-      }
-      p{
-        background: red;
-      }
-      .paragraph_2 {
-        background: blue;
-      }
-      #paragraph_3 {
-        background: green;
-      }
-      p:nth-child(2) strong{
-        background: purple;
-      }
-      a {
-        background: white; 
-      }
-      #in-line_tags {
-        background: purple;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <div class="parent">
-      <nav>Hello</nav>
+      <nav>
+        <ul>
+          <li><a href="index.html">Class 1</a></li>
+          <li><a href="page_2.html">Class 2</a></li>
+        </ul>
+      </nav>
       <div class="child">
         <p>This has been selected by CSS using the p name tag</p>
         <p id="in-line_tags">
