@@ -1,5 +1,5 @@
 nav {
-  background: pink;
+  background: lime;
 }
 
 div.parent {
@@ -16,12 +16,12 @@ div.child {
   width: 100px;
   height: 100px;
   background: yellow;
-  border: 5px solid green;
+  border: 5px solid cyan;
   padding: 15px;
   margin: 15px;
 }
 p {
-  background: red;
+  background: limegreen;
 }
 .paragraph_2 {
   background: blue;
@@ -45,10 +45,10 @@ nav ul {
   padding: 0;
 }
 .block-div {
-  background: turquoise;
+  background: skyblue;
   display: block;
   border-width: 2px;
-  border-color: black;
+  border-color: skyblue;
   border-style: solid;
   padding: 1rem;
   margin: 2rem;
@@ -61,15 +61,21 @@ nav ul {
   margin: auto;
   margin-top: 25px;
   text-align: center;
+  border-radius: 20px;
+  box-shadow: 15px 15px 10px skyblue;
 }
 
 .inline-div {
   display: inline;
-  background-color: purple;
+  background-color: rgb(202, 173, 202);
   color: white;
 }
 
 .bi {
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.make-it-round{
+  border-radius: 50%;
 }
