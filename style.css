@@ -1,5 +1,5 @@
 nav {
-  background: lime;
+  background: black;
 }
 
 div.parent {
@@ -78,4 +78,8 @@ nav ul {
 
 .make-it-round{
   border-radius: 50%;
+}
+
+h1 {
+  color: white;
 }
