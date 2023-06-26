@@ -1,6 +1,3 @@
-function EatMacDonalds(){
-  // alert("EEEEEEE");
-  var x = EEEEEEEEE 
-
-  alert(x)
+function doSomethingCool(){
+  alert('GET SCAMMED LOSER')
 }
